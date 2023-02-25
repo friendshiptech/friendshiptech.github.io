@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(images/background.jpg);
+	margin: 0px;
+	 /* Full height */
+	 height: 90%;
+
+	 /* Center and scale the image nicely */
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+.head
+{
+	font-family:"Trebuchet MS";
+	font-size:50px;
+	color:#715bd3;
+	margin-left:40px;
+
+}
+
+.hr
+{
+	width:80%;
+	height:5px;
+	border-radius:100px;
+	background-color:#d5ee79;
+}
+
+.subhead
+{
+	font-family:"Segoe UI";
+	color:rgb(12, 14, 36);
+	font-size:30px;
+	text-decoration:underline;
+}
+
+
+.labels
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:16px;
+	font-style:italic;
+}
+
+.fields
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	padding:2px 5px;
+	color:#9FF;
+	background-color:transparent;
+	border:1px solid #126062;
+	border-radius:5px;
+}
+.design
+{
+	background-color:transparent;
+	border:1px solid #126062;
+	border-radius:5px;
+	padding:10px 10px;
+	box-shadow:0px 0px 40px #000000;
+}
+a.link:link{text-decoration:none;font-family:"Trebuchet MS";font-size:24px;color:#161d31;}
+a.link:active{text-decoration:none;font-family:"Trebuchet MS";font-size:24px;color:#161d31;}
+a.link:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:24px;color:#161d31;}
+a.link:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:25px;color:#FFFFFF;}
+
+.msg
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:#FF3;
+}
+
+a.cmd:link{text-decoration:none;font-family:"Trebuchet MS";font-size:25px;color:#161d31;padding:5px 6px;background-color:transparent;border:1px solid #066;}
+a.cmd:active{text-decoration:none;font-family:"Trebuchet MS";font-size:25px;color:#161d31;padding:5px 6px;background-color:transparent;border:1px solid #066;}
+a.cmd:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:25px;color:#161d31;padding:5px 6px;background-color:transparent;border:1px solid #066;}
+a.cmd:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:25px;color:#FFFFFF;padding:5px 6px;background-color:transparent;border:1px solid #066;box-shadow:0px 0px 10px #066;}
